@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CV - Elvira Cruz-Cruz</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Page-specific tweaks for the CV viewer (kept inline so the rest of the
+			   template's compiled CSS doesn't need touching) */
+			#cv-viewer {
+				width: 100%;
+				max-width: 1200px;
+				height: 92vh;
+				border: none;
+				display: block;
+				margin: 0 auto;
+			}
+			#cv-fallback {
+				text-align: center;
+				padding: 2em 0;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Elvira Cruz-Cruz</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html#intro">Intro</a></li>
+						<li><a href="index.html#about">About</a></li>
+						<li><a href="cv.html">CV</a></li>
+						<li><a href="index.html#research">Research</a></li>
+						<li><a href="index.html#awards">Awards & Education</a></li>
+						<!-- <li><a href="index.html#work">Visuals</a></li> -->
+						<!-- <li><a href="index.html#publications">Publications</a></li> -->
+						<li><a href="index.html#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Curriculum Vitae</h2>
+					</header>
+					<p>Education, experience, and accomplishments.</p>
+					<footer>
+						<a href="assets/cv.pdf" class="button style2" download>Download CV (PDF)</a>
+						<a href="#cv" class="button style2 down">View Below</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- CV Viewer -->
+			<section id="cv" class="main style3 primary">
+				<div class="content" style="max-width:1240px;">
+					<header>
+						<h2>Full CV</h2>
+						<p>Viewing inline below, or use the download button above to save a copy.</p>
+					</header>
+
+					<div class="box">
+						<!--
+							The #zoom=150 at the end of the src URL sets the default zoom level
+							(150%). Bump that number up or down to taste.
+						-->
+						<iframe id="cv-viewer" src="assets/cv.pdf#zoom=150" title="Elvira Cruz-Cruz CV">
+							<p id="cv-fallback">Your browser doesn't support embedded PDFs.
+							<a href="assets/cv.pdf">Click here to download the CV instead.</a></p>
+						</iframe>
+						<p id="cv-fallback"><em>If the PDF above doesn't load,
+						<a href="assets/cv.pdf" download>download it directly</a>.</em></p>
+					</div>
+
+					<footer style="margin-top:2em;">
+						<ul class="actions special">
+							<li><a href="assets/cv.pdf" class="button primary" download>Download CV (PDF)</a></li>
+						</ul>
+					</footer>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; 2026 Elvira Cruz-Cruz</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
